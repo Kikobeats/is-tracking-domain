@@ -1,5 +1,7 @@
 # is-tracking-domain
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/is-tracking-domain.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/is-tracking-domain.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/is-tracking-domain/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/is-tracking-domain)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/is-tracking-domain.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/is-tracking-domain)
