@@ -1,0 +1,26 @@
+#!/usr/bin/env node
+
+'use strict'
+
+const {reduce, forEach} = require('lodash')
+const jsonFuture = require('json-future')
+const getStdin = require('get-stdin')
+
+;(async() => {
+  const buffer = await getStdin()
+  const {categories: services} = await jsonFuture.parseAsync(buffer)
+
+  const domains = Array.from(reduce(services, (set, service) => {
+    forEach(service, company => {
+      forEach(company, domains => {
+        forEach(domains, domain => {
+          set = new Set([...set, ...domain])
+        })
+      })
+    })
+
+    return set
+  }, new Set()))
+
+  await jsonFuture.saveAsync('domains.json', domains)
+})()
