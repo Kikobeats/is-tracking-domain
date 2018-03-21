@@ -1,3 +1,12 @@
+<a name="1.1.0"></a>
+# 1.1.0 (2018-03-21)
+
+* Add API docs ([9ed0601](https://github.com/Kikobeats/is-tracking-domain/commit/9ed0601))
+* Add exclude support ([0d35274](https://github.com/Kikobeats/is-tracking-domain/commit/0d35274))
+* fix(package): update get-stdin to version 6.0.0 ([a659eca](https://github.com/Kikobeats/is-tracking-domain/commit/a659eca))
+
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2018-02-14)
 
