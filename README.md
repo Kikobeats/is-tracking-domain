@@ -24,6 +24,26 @@ const isTrackingDomain = require('is-tracking-domain')
 isTrackingDomain('doubleclick.net') // => true
 ```
 
+## API
+
+### isTrackingDomain(domain, options)
+
+#### domain
+
+*Required*</br>
+Type: `string`
+
+The domain to be validated.
+
+#### options
+
+##### exclude
+
+Type: `array`</br>
+Default: `[]`
+
+A list of domains to be considered as a whitelist.
+
 ## License
 
 **is-tracking-domain** © [Kiko Beats](https://kikobeats.com), released under the [MIT](https://github.com/Kikobeats/is-tracking-domain/blob/master/LICENSE.md) License.<br>
