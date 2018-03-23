@@ -1,3 +1,11 @@
+<a name="1.1.1"></a>
+## 1.1.1 (2018-03-23)
+
+* Fix lint ([491cb17](https://github.com/Kikobeats/is-tracking-domain/commit/491cb17))
+* Move into dev dependencies ([1591b63](https://github.com/Kikobeats/is-tracking-domain/commit/1591b63))
+
+
+
 <a name="1.1.0"></a>
 # 1.1.0 (2018-03-21)
 
