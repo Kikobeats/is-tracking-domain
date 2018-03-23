@@ -6,7 +6,7 @@ const {reduce, forEach} = require('lodash')
 const jsonFuture = require('json-future')
 const getStdin = require('get-stdin')
 
-;(async() => {
+;(async () => {
   const buffer = await getStdin()
   const {categories: services} = await jsonFuture.parseAsync(buffer)
 
