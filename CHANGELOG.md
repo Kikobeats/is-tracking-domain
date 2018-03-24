@@ -1,3 +1,10 @@
+<a name="1.1.2"></a>
+## 1.1.2 (2018-03-24)
+
+* Move deps ([2e750d9](https://github.com/Kikobeats/is-tracking-domain/commit/2e750d9))
+
+
+
 <a name="1.1.1"></a>
 ## 1.1.1 (2018-03-23)
 
