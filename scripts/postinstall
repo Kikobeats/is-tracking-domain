@@ -2,25 +2,32 @@
 
 'use strict'
 
-const {reduce, forEach} = require('lodash')
 const jsonFuture = require('json-future')
-const getStdin = require('get-stdin')
+const got = require('got')
+
+const DATASET_URL = 'https://rawgit.com/disconnectme/disconnect-tracking-protection/master/services.json'
+
+const extractDomains = obj => Object.values(obj).reduce((domains, value)=> {
+    if (Object.prototype.toString.call(value) === '[object Object]') {
+      return [ ...domains, ...extractDomains(value)]
+    }
+    if(Array.isArray(value)) {
+      return [...domains, ...value]
+    }
+    return domains
+  }, [])
 
 ;(async () => {
-  const buffer = await getStdin()
-  const {categories: services} = await jsonFuture.parseAsync(buffer)
+  const { body } = await got(DATASET_URL)
+  const { categories } = await jsonFuture.parseAsync(body)
 
-  const domains = Array.from(reduce(services, (set, service) => {
-    forEach(service, company => {
-      forEach(company, domains => {
-        forEach(domains, domain => {
-          set = new Set([...set, ...domain])
-        })
-      })
-    })
+  const domains = Object.values(categories).reduce((set, category) => {
+    const domains = category.reduce(
+      (domains, company) => [...domains, ...extractDomains(company)], []
+    );
+    return new Set([...set, ...domains])
+  }, new Set())
 
-    return set
-  }, new Set()))
-
-  await jsonFuture.saveAsync('domains.json', domains)
+  const sortedDomains = Array.from(domains).sort()
+  await jsonFuture.saveAsync('domains.json', sortedDomains)
 })()
