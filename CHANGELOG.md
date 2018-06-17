@@ -1,3 +1,15 @@
+<a name="1.1.3"></a>
+## 1.1.3 (2018-06-17)
+
+* Fix postinstall script ([9be0be9](https://github.com/Kikobeats/is-tracking-domain/commit/9be0be9))
+* Prettify code ([4e51c15](https://github.com/Kikobeats/is-tracking-domain/commit/4e51c15))
+* Remove generated file ([94efc0d](https://github.com/Kikobeats/is-tracking-domain/commit/94efc0d))
+* some fixes and some comments ([8b86d2d](https://github.com/Kikobeats/is-tracking-domain/commit/8b86d2d))
+* Tweaks ([5147a99](https://github.com/Kikobeats/is-tracking-domain/commit/5147a99))
+* Update and rename postinstall to postinstall.js ([9570be2](https://github.com/Kikobeats/is-tracking-domain/commit/9570be2))
+
+
+
 <a name="1.1.2"></a>
 ## 1.1.2 (2018-03-24)
 
