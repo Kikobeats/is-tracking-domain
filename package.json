@@ -45,7 +45,7 @@
     "standard-markdown": "latest"
   },
   "engines": {
-    "node": ">= 6"
+    "node": ">= 8"
   },
   "files": [
     "index.js",
@@ -58,7 +58,7 @@
     "postinstall": "node scripts/postinstall",
     "precommit": "lint-staged",
     "pretest": "npm run lint",
-    "pretty": "prettier-standard index.js {core,test,bin}/**/*.js --single-quote",
+    "pretty": "prettier-standard index.js {scripts}/**/*.js --single-quote --print-width 100",
     "test": "nyc ava test --verbose"
   },
   "license": "MIT",
