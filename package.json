@@ -28,14 +28,16 @@
     "trackers",
     "tracking"
   ],
+  "dependencies": {
+    "got": "~9.0.0",
+    "json-future": "~2.1.2"
+  },
   "devDependencies": {
     "ava": "latest",
     "coveralls": "latest",
     "finepack": "latest",
     "git-dirty": "latest",
-    "got": "latest",
     "husky": "latest",
-    "json-future": "latest",
     "lint-staged": "latest",
     "nyc": "latest",
     "prettier-standard": "latest",
