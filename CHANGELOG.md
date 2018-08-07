@@ -1,3 +1,13 @@
+<a name="1.1.4"></a>
+## 1.1.4 (2018-08-07)
+
+* Move deps to subdependencies ([ed97dd0](https://github.com/Kikobeats/is-tracking-domain/commit/ed97dd0))
+* Update .travis.yml ([a49113e](https://github.com/Kikobeats/is-tracking-domain/commit/a49113e))
+* Update lint ([f54b9f7](https://github.com/Kikobeats/is-tracking-domain/commit/f54b9f7))
+* fix(package): update got to version 9.0.0 ([70562b3](https://github.com/Kikobeats/is-tracking-domain/commit/70562b3))
+
+
+
 <a name="1.1.3"></a>
 ## 1.1.3 (2018-06-17)
 
