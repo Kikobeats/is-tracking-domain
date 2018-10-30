@@ -1,3 +1,13 @@
+<a name="1.1.6"></a>
+## 1.1.6 (2018-10-30)
+
+* fix(package): update got to version 9.1.0 ([c7b8a79](https://github.com/Kikobeats/is-tracking-domain/commit/c7b8a79))
+* fix(package): update got to version 9.2.0 ([e8e0f99](https://github.com/Kikobeats/is-tracking-domain/commit/e8e0f99))
+* fix(package): update got to version 9.3.0 ([8579021](https://github.com/Kikobeats/is-tracking-domain/commit/8579021))
+* Update package.json ([1d030e3](https://github.com/Kikobeats/is-tracking-domain/commit/1d030e3))
+
+
+
 <a name="1.1.5"></a>
 ## 1.1.5 (2018-08-07)
 
