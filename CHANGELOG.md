@@ -1,3 +1,16 @@
+<a name="1.1.7"></a>
+## 1.1.7 (2019-06-23)
+
+* build: migrate hooks ([74afa61](https://github.com/Kikobeats/is-tracking-domain/commit/74afa61))
+* build: tweaks ([5fef121](https://github.com/Kikobeats/is-tracking-domain/commit/5fef121))
+* build: update dependencies ([76d11e7](https://github.com/Kikobeats/is-tracking-domain/commit/76d11e7))
+* fix(package): update got to version 9.4.0 ([e25525a](https://github.com/Kikobeats/is-tracking-domain/commit/e25525a))
+* fix(package): update got to version 9.5.0 ([fc8bec5](https://github.com/Kikobeats/is-tracking-domain/commit/fc8bec5))
+* fix(package): update got to version 9.6.0 ([46aae30](https://github.com/Kikobeats/is-tracking-domain/commit/46aae30))
+* fix(package): update json-future to version 2.2.0 ([d8a7fd3](https://github.com/Kikobeats/is-tracking-domain/commit/d8a7fd3))
+
+
+
 <a name="1.1.6"></a>
 ## 1.1.6 (2018-10-30)
 
