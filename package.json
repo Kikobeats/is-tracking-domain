@@ -30,7 +30,7 @@
   ],
   "dependencies": {
     "got": "~9.6.0",
-    "json-future": "~2.2.0"
+    "json-future": "~2.2.4"
   },
   "devDependencies": {
     "ava": "latest",
