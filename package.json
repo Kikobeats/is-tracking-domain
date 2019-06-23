@@ -1,7 +1,7 @@
 {
   "name": "is-tracking-domain",
   "description": "Determinate if a domain is a tracker",
-  "homepage": "https://documentup.com/Kikobeats/is-tracking-domain",
+  "homepage": "https://nicedoc.io/Kikobeats/is-tracking-domain",
   "version": "1.1.6",
   "main": "index.js",
   "author": {
@@ -41,7 +41,7 @@
     "lint-staged": "latest",
     "nyc": "latest",
     "prettier-standard": "latest",
-    "standard": "11",
+    "standard": "latest",
     "standard-markdown": "latest"
   },
   "engines": {
@@ -59,7 +59,7 @@
     "precommit": "lint-staged",
     "pretest": "npm run lint",
     "pretty": "prettier-standard index.js {scripts}/**/*.js --single-quote --print-width 100",
-    "test": "nyc ava test --verbose"
+    "test": "nyc ava --verbose"
   },
   "license": "MIT",
   "lint-staged": {
