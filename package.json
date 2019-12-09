@@ -29,7 +29,7 @@
     "tracking"
   ],
   "dependencies": {
-    "got": "~9.6.0",
+    "got": "~10.0.2",
     "json-future": "~2.2.4"
   },
   "devDependencies": {
