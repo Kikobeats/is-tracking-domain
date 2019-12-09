@@ -1,3 +1,9 @@
+## <small>1.1.8 (2019-12-09)</small>
+
+* build: update dependencies ([1985f24](https://github.com/Kikobeats/is-tracking-domain/commit/1985f24))
+
+
+
 <a name="1.1.7"></a>
 ## 1.1.7 (2019-06-23)
 
